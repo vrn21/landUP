@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+land_up = "2gViFt82VWBLbSDoF8xfT78Hb39AoJhGHVwvkJUh9HJA"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/vrn21/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
